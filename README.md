@@ -23,13 +23,13 @@ Create a shell script that reads the log file and provides the following informa
 2. Make the script executable by running the following command in your terminal:
 
    ```
-   chmod +x analyze.sh
+   chmod +x log-analyzer.sh
    ```
 
 3. Run the script by providing the path to your Nginx log file:
 
    ```
-   ./analyze.sh
+   ./log-analyzer.sh
    ```
 
 ### Note
