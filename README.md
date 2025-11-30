@@ -34,7 +34,7 @@ Create a shell script that reads the log file and provides the following informa
 
 ### Note
 
-Make sure you have the logfile.txt
+Make sure you have the nginx-log.txt
 
 ## Output
 
