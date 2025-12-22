@@ -2,7 +2,7 @@
 COUNTS=5
 
 
-echo -e "\nTop ${COUNTS} IP addresses with the most requests:"
+echo -e "\nTop ${COUNTS} IP Addresses With The Most Requests:"
 awk '{print $1}' nginx-log.txt | sort | uniq -c | sort -nr |awk '{print $2 " - " $1 " requests"}' | head -n ${COUNTS}
 
 echo -e "\nTop ${COUNTS} Most Requested Paths:"
